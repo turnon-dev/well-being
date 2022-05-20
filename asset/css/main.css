@@ -1,0 +1,721 @@
+/* /////////////// reset /////////////// */
+
+html {
+    overflow: visible;
+}
+
+body {
+    /*overflow-x:hidden;*/
+    overflow: auto;
+    font-size: 14px;
+    font-family: 'db_heavent_cond', sans-serif;
+    line-height: 1.4;
+}
+
+.pos {
+    position: absolute;
+}
+
+.rel {
+    position: relative;
+}
+
+.thumbnail>img,
+.thumbnail a>img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t_inline {
+    display: inline-block;
+}
+
+.pad0 {
+    padding: 0;
+}
+
+.mar0 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* /////////////// reset /////////////// */
+
+
+/* /////////////// Start CSS /////////////// */
+
+#wrapper {
+    -webkit-font-smoothing: antialiased;
+}
+
+#herobanner {
+    background: #000;
+}
+
+.showpc {
+    display: block;
+}
+
+.showmb {
+    display: none;
+}
+
+.pad_section {
+    padding: 65px 0;
+}
+
+.swiper-pagination-ais .swiper-pagination-bullet {
+    background: #5f5f5f;
+    outline: none;
+}
+
+.swiper-pagination-ais .swiper-pagination-bullet-active {
+    background: #b2d233;
+}
+
+.content_head {
+    background: #fff;
+}
+
+.content_head .txthead {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.content_head .txthead h1 {
+    color: #ABCD43;
+    font-size: 43px;
+    font-family: 'db_heaventbold_cond', sans-serif;
+}
+
+.content_head .txthead h2 {
+    color: #707070;
+    font-size: 28px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+}
+
+.content_head .line {
+    height: 1px;
+    width: 100%;
+    background: #E0E0E0;
+    margin: 20px auto 0px;
+}
+
+.content_tabbar {
+    background: #fff;
+    position: sticky;
+    top: 50px;
+    z-index: 5;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content_tabbar .wrap-select-tab {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 12px;
+}
+
+.content_tabbar .wrap-select-tab img {
+    margin-bottom: 10px;
+}
+
+.content_tabbar .wrap-select-tab li {
+    text-align: center;
+    background: #DEDEDA;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 100%;
+    padding: 15px;
+}
+
+.content_tabbar .wrap-select-tab li .icon {
+    text-align: center;
+}
+
+.content_tabbar .wrap-select-tab li .icon img {
+    width: 30%;
+}
+
+.content_tabbar .wrap-select-tab li .txt {
+    text-align: left;
+    color: #707070;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'db_heaventmed_cond', sans-serif;
+}
+
+.content_tabbar:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    bottom: -15px;
+    left: calc(50% - 15px);
+    transform: rotate(45deg);
+    z-index: -1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.content_tabbar .wrap-select-tab li:hover .txt {
+    color: #fff;
+}
+
+.content_tabbar .wrap-select-tab li.active .txt {
+    color: #fff;
+}
+
+.content_tabbar .wrap-select-tab li#tab1:hover {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab2:hover {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab3:hover {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab4:hover {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab5:hover {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab1.active {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab2.active {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab3.active {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab4.active {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab5.active {
+    background: rgb(87, 160, 81);
+    background: linear-gradient(0deg, rgba(87, 160, 81, 1) 0%, rgba(170, 204, 66, 1) 100%);
+}
+
+.content_tabbar .wrap-select-tab li#tab1 img {
+    background: url(../images/icon3.png) center no-repeat;
+    background-size: cover;
+}
+
+.content_tabbar .wrap-select-tab li#tab2 img {
+    background: url(../images/icon2.png) center no-repeat;
+    background-size: cover;
+}
+
+.content_tabbar .wrap-select-tab li#tab3 img {
+    background: url(../images/ion_hospotal.png) center no-repeat;
+    background-size: cover;
+}
+
+
+/* .content_tabbar .wrap-select-tab li#tab4 img {background: url(../images/icon4.png) center no-repeat; background-size: cover;}
+.content_tabbar .wrap-select-tab li#tab5 img {background: url(../images/icon5.png) center no-repeat; background-size: cover;} */
+
+.content_tabbar .wrap-select-tab li#tab1:hover img,
+.content_tabbar .wrap-select-tab li#tab1.active img {
+    background: url(../images/icon3_active.png) center no-repeat;
+    background-size: cover;
+}
+
+.content_tabbar .wrap-select-tab li#tab2:hover img,
+.content_tabbar .wrap-select-tab li#tab2.active img {
+    background: url(../images/icon2_active.png) center no-repeat;
+    background-size: cover;
+}
+
+.content_tabbar .wrap-select-tab li#tab3:hover img,
+.content_tabbar .wrap-select-tab li#tab3.active img {
+    background: url(../images/ion_hospotal_active.png) center no-repeat;
+    background-size: cover;
+}
+
+
+/* .content_tabbar .wrap-select-tab li#tab4:hover img,
+.content_tabbar .wrap-select-tab li#tab4.active img {background: url(../images/icon4_active.png) center no-repeat; background-size: cover;}
+.content_tabbar .wrap-select-tab li#tab5:hover img,
+.content_tabbar .wrap-select-tab li#tab5.active img {background: url(../images/icon5_active.png) center no-repeat; background-size: cover;} */
+
+.info-bottom {
+    width: 100%;
+}
+
+.wrap_tabber {
+    background: #fff;
+    padding: 30px 0 30px;
+}
+
+.content_card {
+    background: #AED72A url(../images/bg_pattern.png) center;
+    padding: 65px 0;
+    position: relative;
+}
+
+.content_card .txthead {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.content_card .txthead h1 {
+    color: #3E3E3E;
+    font-size: 40px;
+    font-family: 'db_heaventbold_cond', sans-serif;
+}
+
+.content_card .txthead h2 {
+    color: #707070;
+    font-size: 25px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+}
+
+.txtgreen {
+    color: #274e13;
+}
+
+.txtred {
+    color: #741b47;
+}
+
+.txtred2 {
+    color: #f00;
+}
+
+.bg_main_top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: url(../images/bg_main_top.png) top left no-repeat, url(../images/bg_main_bottom.png) 100% 75% no-repeat;
+    mix-blend-mode: color-dodge;
+}
+
+.content_card .card-privilege {
+    overflow: hidden;
+    border: 0;
+    margin: 0 auto 25px;
+    background: #fff;
+    min-height: 250px;
+    display: block;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content_card .card-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_card .card-item .product {
+    height: 100%;
+    padding: 12px;
+    background: rgb(244, 240, 240);
+    background: linear-gradient(0deg, rgba(244, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 75%);
+}
+
+.content_card .card-item .code {
+    background: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 25px 0;
+}
+
+.content_card .card-item .code:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    top: calc(50% - 40%);
+    left: 0;
+    background: #ddd;
+}
+
+.content_card .logo_brand {
+    text-align: right;
+    max-width: 125px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.content_card .img_product {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.content_card .img_product img {
+    height: 250px;
+    object-fit: contain;
+}
+
+.content_card .award {
+    text-align: center;
+}
+
+.content_card .logo_app {
+    text-align: center;
+}
+
+.content_card .card-item .code .txt h2 {
+    color: #D7127C;
+    font-size: 30px;
+    font-family: 'db_heaventbold_cond', sans-serif;
+    margin-bottom: 12px;
+}
+
+.content_card .card-item .code .txt h3 {
+    color: #3E3E3E;
+    font-size: 19px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.content_card .card-item .code .txt p {
+    font-size: 16px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.txtpink {
+    color: #D7127C;
+}
+
+.content_card .card-item .info {
+    padding: 20px 30px 20px 30px;
+    min-height: 370px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.content_card .card-item .info .txt-in h1 {
+    color: #000;
+    font-size: 28px;
+    font-family: 'db_heaventbold_cond', sans-serif;
+}
+
+.content_card .card-item .info .txt-in h2 {
+    color: #D7127C;
+    font-size: 22px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+    margin: 5px 0 12px;
+    background: #F4F4F4;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 5px 20px 0 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.content_card .card-item .info .txt-in h2 .price_normal {
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 10px;
+    color: #A0A0A0;
+}
+
+.content_card .card-item .info .txt-in h3 {
+    color: #AACC42;
+    font-size: 19px;
+    font-family: 'db_heaventbold_cond', sans-serif;
+}
+
+.content_card .card-item .info .txt-in p {
+    color: #707070;
+    font-size: 18px;
+    font-family: 'db_heavent_cond', sans-serif;
+    margin-top: 0px;
+}
+
+.content_card .card-item .info .txt-in ol {
+    padding-left: 22px;
+}
+
+.content_card .card-item .info .txt-in ol li {
+    font-size: 18px;
+    font-family: 'db_heavent_cond', sans-serif;
+    color: #707070;
+}
+
+.content_card .card-item .info .txt-in ul {
+    list-style-type: disc;
+    padding-left: 22px;
+}
+
+.content_card .card-item .info .txt-in ul li {
+    color: #707070;
+    font-size: 18px;
+    font-family: 'db_heavent_cond', sans-serif;
+}
+
+.content_card .card-item .info .txt-in h4 {
+    color: #AACC42;
+    font-size: 19px;
+    font-family: 'db_heaventbold_cond', sans-serif;
+    margin-top: 15px;
+}
+
+.content_card .card-item .info .txt-in h4 .expire {
+    font-size: 19px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+    color: #707070;
+    display: inline-block;
+}
+
+a.btn_codeapp {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(98, 98, 98, 1) 100%);
+    color: #fff;
+    font-size: 19px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+    padding: 5px 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 130px;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+a.btn_codeapp:hover {
+    background: rgb(13, 13, 13);
+    background: linear-gradient(0deg, rgba(13, 13, 13, 1) 0%, rgba(107, 107, 107, 1) 100%);
+}
+
+a.btn_codeapp img {
+    margin-left: 12px;
+}
+
+a.btn_condition {
+    background: rgb(89, 162, 67);
+    background: linear-gradient(0deg, rgba(89, 162, 67, 1) 0%, rgba(174, 227, 89, 1) 100%);
+    color: #fff;
+    font-size: 19px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+a.btn_condition:hover {
+    background: rgb(66, 124, 49);
+    background: linear-gradient(0deg, rgba(66, 124, 49, 1) 0%, rgba(154, 204, 74, 1) 100%);
+}
+
+a.btn_condition img {
+    margin-left: 12px;
+    transform: rotate(90deg);
+}
+
+a.btn_condition.active img {
+    transform: rotate(270deg);
+}
+
+a.btn_properties {
+    background: rgb(89, 162, 67);
+    background: linear-gradient(0deg, rgba(89, 162, 67, 1) 0%, rgba(174, 227, 89, 1) 100%);
+    color: #fff;
+    font-size: 19px;
+    font-family: 'db_heaventmed_cond', sans-serif;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 130px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+a.btn_properties:hover {
+    background: rgb(66, 124, 49);
+    background: linear-gradient(0deg, rgba(66, 124, 49, 1) 0%, rgba(154, 204, 74, 1) 100%);
+}
+
+a.btn_properties img {
+    margin-left: 12px;
+    transform: rotate(90deg);
+}
+
+a.btn_properties.active img {
+    transform: rotate(270deg);
+}
+
+.content_card .content-in {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background: #fff;
+}
+
+.info-top {
+    width: 100%;
+}
+
+.content_card .content-in-1 {
+    display: grid;
+    background: #fff;
+}
+
+.card-details {
+    position: relative;
+}
+
+.card-details:before {
+    content: '';
+    position: absolute;
+    width: 94%;
+    height: 1px;
+    background: #ddd;
+    top: 0;
+    left: 30px;
+}
+
+.card-details .txt {
+    padding: 30px 30px 50px;
+}
+
+.card-details .txt h1 {
+    font-size: 19px;
+    font-family: 'db_heaventbold_cond', sans-serif;
+    color: #AACC42;
+}
+
+.card-details .txt ol {
+    padding-left: 18px;
+}
+
+.card-details .txt ol li {
+    font-size: 17px;
+    font-family: 'db_heavent_cond', sans-serif;
+    color: #707070;
+}
+
+.card-details .txt ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.card-details .txt ul li {
+    font-size: 17px;
+    font-family: 'db_heavent_cond', sans-serif;
+    color: #707070;
+}
+
+.card-details .txt p {
+    font-size: 17px;
+    font-family: 'db_heavent_cond', sans-serif;
+    color: #707070;
+}
+
+.card-details .txt p .txtbold {
+    font-family: 'db_heaventmed_cond', sans-serif;
+    color: #555;
+}
+
+.box-properties {
+    display: none;
+}
+
+.box-condition {
+    display: none;
+}
+
+.content_card .card-item .info .txt-in .txt-in-en h2 {
+    font-size: 22px;
+}
+
+.content_card .card-item .info .txt-in .txt-in-en h2 .price_normal {
+    font-size: 16px;
+}
+
+.card-details ol li .province {
+    position: absolute;
+    left: 70%;
+}
+
+.card-details ol li .province_en {
+    position: absolute;
+    left: 70%;
+}
+
+.card-details .txt a {
+    color: #AACC42;
+    text-decoration: none;
+    font-family: 'db_heaventmed_cond';
+}
+
+.card-details .txt a:hover {
+    color: #707070;
+}
+
+@media(min-width: 1440px) {
+    .container {
+        max-width: 1280px
+    }
+    .container-xl {
+        max-width: 1280px
+    }
+}
