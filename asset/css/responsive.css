@@ -120,8 +120,8 @@
 
 	.content_card .logo_app img {width: 44px;}
 	.content_card .card-item .code .txt h2 {margin-bottom: 4px;}
-	.content_card .card-item .code .txt h3 {font-size: 14px;white-space: nowrap;padding-left: 55px;text-align: left; margin:8px 0 12px;}
-	.content_card .logo_app {float: left;}
+	.content_card .card-item .code .txt h3 {font-size: 14px;white-space: inherit;padding-left: 65px;text-align: left; margin:8px 0 12px;}
+	.content_card .logo_app {float: left; margin-left: 10px;}
 	.content_card .card-item .code:before {width: 90%; height: 1px; top:0; left: calc(50% - 45%);}
 	.card-details:before {width: 90%; height: 1px; top:0; left: calc(50% - 45%);}
 	.content_card .card-item .code {padding: 15px 0;}
