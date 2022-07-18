@@ -210,6 +210,19 @@ $('#inc_health_solution').show().load('inc_health_solution.html',function(){
 
 
 
+  $('#health_solution06 .btn_properties').click(function(){
+    $('#health_solution06 .btn_condition').removeClass('active');
+    $(this).toggleClass('active');
+    $('#health_solution06 .box-properties').slideToggle();
+    $('#health_solution06 .box-condition').slideUp();
+  });
+  $('#health_solution06 .btn_condition').click(function(){
+    $('#health_solution06 .btn_properties').removeClass('active');
+    $(this).toggleClass('active');
+    $('#health_solution06 .box-properties').slideUp();
+    $('#health_solution06 .box-condition').slideToggle();
+  });
+
 });
 
 
@@ -258,18 +271,18 @@ $('#inc_telemedicine').show().load('inc_telemedicine.html',function(){
     $('#telemedicine03 .box-condition').slideToggle();
   });
 
-  $('#telemedicine04 .btn_properties').click(function(){
-    $('#telemedicine04 .btn_condition').removeClass('active');
-    $(this).toggleClass('active');
-    $('#telemedicine04 .box-properties').slideToggle();
-    $('#telemedicine04 .box-condition').slideUp();
-  });
-  $('#telemedicine04 .btn_condition').click(function(){
-    $('#telemedicine04 .btn_properties').removeClass('active');
-    $(this).toggleClass('active');
-    $('#telemedicine04 .box-properties').slideUp();
-    $('#telemedicine04 .box-condition').slideToggle();
-  });
+  // $('#telemedicine04 .btn_properties').click(function(){
+  //   $('#telemedicine04 .btn_condition').removeClass('active');
+  //   $(this).toggleClass('active');
+  //   $('#telemedicine04 .box-properties').slideToggle();
+  //   $('#telemedicine04 .box-condition').slideUp();
+  // });
+  // $('#telemedicine04 .btn_condition').click(function(){
+  //   $('#telemedicine04 .btn_properties').removeClass('active');
+  //   $(this).toggleClass('active');
+  //   $('#telemedicine04 .box-properties').slideUp();
+  //   $('#telemedicine04 .box-condition').slideToggle();
+  // });
 
   $('#telemedicine05 .btn_properties').click(function(){
     $('#telemedicine05 .btn_condition').removeClass('active');
