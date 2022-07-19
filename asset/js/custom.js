@@ -182,18 +182,18 @@ $('#inc_health_solution').show().load('inc_health_solution.html',function(){
     $('#health_solution03 .box-condition').slideToggle();
   });
 
-  $('#health_solution04 .btn_properties').click(function(){
-    $('#health_solution04 .btn_condition').removeClass('active');
-    $(this).toggleClass('active');
-    $('#health_solution04 .box-properties').slideToggle();
-    $('#health_solution04 .box-condition').slideUp();
-  });
-  $('#health_solution04 .btn_condition').click(function(){
-    $('#health_solution04 .btn_properties').removeClass('active');
-    $(this).toggleClass('active');
-    $('#health_solution04 .box-properties').slideUp();
-    $('#health_solution04 .box-condition').slideToggle();
-  });
+  // $('#health_solution04 .btn_properties').click(function(){
+  //   $('#health_solution04 .btn_condition').removeClass('active');
+  //   $(this).toggleClass('active');
+  //   $('#health_solution04 .box-properties').slideToggle();
+  //   $('#health_solution04 .box-condition').slideUp();
+  // });
+  // $('#health_solution04 .btn_condition').click(function(){
+  //   $('#health_solution04 .btn_properties').removeClass('active');
+  //   $(this).toggleClass('active');
+  //   $('#health_solution04 .box-properties').slideUp();
+  //   $('#health_solution04 .box-condition').slideToggle();
+  // });
 
   $('#health_solution05 .btn_properties').click(function(){
     $('#health_solution05 .btn_condition').removeClass('active');
