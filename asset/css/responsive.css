@@ -13,10 +13,10 @@
 	a.btn_properties,a.btn_condition,a.btn_codeapp {font-size: 17px;}
 	.content_card .card-item .code .txt h2 {font-size: 27px;}
 	.content_card .card-item .code .txt h3 {font-size: 17px;}
-	.card-details .txt h1 {font-size: 17px;}
-	.card-details .txt ol li {font-size: 16px;}
-	.card-details .txt ul li {font-size: 16px;}
-	.card-details .txt p {font-size: 16px;}
+	.card-details .txt h1 {font-size: 17px !important;}
+	.card-details .txt ol li {font-size: 16px !important;}
+	.card-details .txt ul li {font-size: 16px !important;}
+	.card-details .txt p {font-size: 16px !important;}
 }
 
 @media(max-width: 1199px){
@@ -34,9 +34,9 @@
 	.content_card .card-item .info {padding: 20px 15px 20px 15px; min-height: 330px;}
 	.content_card .logo_app img{width: 70px;}
 	.content_card .content-in {grid-template-columns: 3fr 1.2fr;}
-	.card-details .txt ol li {font-size: 15px;}
-	.card-details .txt ul li {font-size: 15px;}
-	.card-details .txt p {font-size: 15px;}
+	.card-details .txt ol li {font-size: 15px !important;}
+	.card-details .txt ul li {font-size: 15px !important;}
+	.card-details .txt p {font-size: 15px !important;}
 
 	.content_head .txthead h1 {font-size: 40px;}
 	.content_head .txthead h2 {font-size: 25px;}
@@ -79,11 +79,11 @@
 	a.btn_condition img {width: 7px;}
 	a.btn_properties img {width: 7px;}
 
-	.card-details .txt h1 {font-size: 15px;}
-	.card-details .txt ol li {font-size: 14px;}
-	.card-details .txt ul li {font-size: 14px;}
-	.card-details .txt p {font-size: 14px;}
-	.card-details .txt ol {padding-left: 15px;}
+	.card-details .txt h1 {font-size: 15px !important;}
+	.card-details .txt ol li {font-size: 14px !important;}
+	.card-details .txt ul li {font-size: 14px !important;}
+	.card-details .txt p {font-size: 14px !important;}
+	.card-details .txt ol {padding-left: 15px !important;}
 	.wrap_tabber {padding: 15px 0;}
 	/* .content_tabbar .wrap-select-tab {grid-template-columns: repeat(3,1fr); grid-gap: 8px;} */
 	.content_tabbar .wrap-select-tab li {border-radius: 5px;}
@@ -145,7 +145,7 @@
 
 .content_card {padding-bottom: 35px;}
 .card-details .txt ul li {
-    font-size: 12px;
+    font-size: 12px !important; 
 }
 
 .content_tabbar .wrap-select-tab li .txt {display: block; padding:0 3px; text-align: center;}
@@ -194,11 +194,11 @@ a.btn_properties, a.btn_condition, a.btn_codeapp {
 		font-size: 12px;
 	}
 	.card-details .txt ol li {
-		font-size: 10px;
+		font-size: 10px !important;
 	}
 
 	.card-details .txt ul li {
-		font-size: 10px;
+		font-size: 10px !important;
 	}
 	.content_card .card-item .info .txt-in h4 .expire {
 		font-size: 14px;
@@ -209,12 +209,12 @@ a.btn_properties, a.btn_condition, a.btn_codeapp {
 @media(max-width: 320px){
 	
 	.card-details .txt ol li {
-		font-size: 8px;
+		font-size: 8px !important;
 	}
 	.card-details .txt ul li {
-		font-size: 8px;
+		font-size: 8px !important;
 	}
 	.card-details .txt h1 {
-		font-size: 13px;
+		font-size: 13px !important;
 	}
 }

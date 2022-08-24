@@ -638,9 +638,9 @@ a.btn_properties.active img {
 }
 
 .card-details .txt h1 {
-    font-size: 19px;
-    font-family: 'db_heaventbold_cond', sans-serif;
-    color: #AACC42;
+    font-size: 19px !important;
+    font-family: 'db_heaventbold_cond', sans-serif !important;
+    color: #AACC42 !important;
 }
 
 .card-details .txt ol {
@@ -659,9 +659,9 @@ a.btn_properties.active img {
 }
 
 .card-details .txt ul li {
-    font-size: 17px;
-    font-family: 'db_heavent_cond', sans-serif;
-    color: #707070;
+    font-size: 17px !important;
+    font-family: 'db_heavent_cond', sans-serif !important;
+    color: #707070 !important;
 }
 
 .card-details .txt p {
